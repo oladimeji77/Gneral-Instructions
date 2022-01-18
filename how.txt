@@ -1,0 +1,19 @@
+pip install python
+
+#where env is the name of the Virtual environment, it could be anyname eg deji. 
+Virtual environment is used to isoltae the program from other programs
+
+ py -m venv env
+
+env\Scripts\activate    #to activate the Venv
+
+pip install flask  # to install flask
+pip install SQLAlchemy  #you can now install all python packages at this point
+pip install flask-pwa
+
+
+set FLASK_APP=app.py to initialize the flask app and start running. app.py can be any name. eg deji.py
+
+flask run #after wirting the code, run it with flask run
+
+
