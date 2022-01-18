@@ -1,0 +1,24 @@
+---------------CREATING A NEW REPOSITORY
+First create a new repository in github, then
+
+Run the following in the terminal of your local computer.
+
+- git init 
+(creates local git storage).
+
+- git add README.md or git add . (to move every item in the folder)
+(adds a README file to your local storage).
+
+- git commit -m "first commit" -
+(First commit to your local Storage).
+
+- git branch -M <branch name> 
+(creates your first branch "main", it can be any other branch name of your choice).
+
+- git remote add <remote name> <url> 
+(remotes or connects to github. The "remote name" can be any name of choice, and the url is provided by git hub when you create the repository).
+e.g git remote add origin https://github.com/zimesfield/training.git
+
+- git push -u <remote name> <branch name>
+(push branch to remote repository)
+e.g git push origin main
